@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "397065026655",
+    "project_id": "trendforma-50bd0",
+    "storage_bucket": "trendforma-50bd0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397065026655:android:1c73124ce6d6a0143f6fea",
+        "android_client_info": {
+          "package_name": "com.trendForma.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvvTL7_UHHGQq0zhds4K7qkONan1BZN6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
