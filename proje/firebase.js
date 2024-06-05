@@ -1,21 +1,20 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import {getAuth,createUserWithEmailAndPassword} from 'firebase/auth'
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
 
+// Firebase yapılandırmanızı buraya ekleyin
 const firebaseConfig = {
-  apiKey: "AIzaSyAxdfq4si4q9Dzr_m0hEu8cqSO6J8jgsvg",
-  authDomain: "merhaba-b5176.firebaseapp.com",
-  projectId: "merhaba-b5176",
-  storageBucket: "merhaba-b5176.appspot.com",
-  messagingSenderId: "727088447385",
-  appId: "1:727088447385:web:b2b1f402b967fcc985dd08",
-  measurementId: "G-90QBP3RKKZ"
-  
+  apiKey: "AIzaSyDcZb58gNpJnKcgUQOQtKyHKUeBzyjtTyY",
+  authDomain: "trendforma-b498d.firebaseapp.com",
+  projectId: "trendforma-b498d",
+  storageBucket: "trendforma-b498d.appspot.com",
+  messagingSenderId: "876062044455",
+  appId: "1:876062044455:web:b6d03e9303f72118e03902",
+  measurementId: "G-N1GKTTWJEM"
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
-export const auth=getAuth(app);
+export const auth = getAuth(app);
+export const db = getFirestore(app);
+
 export default app;
-
-
